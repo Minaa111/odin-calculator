@@ -19,43 +19,43 @@
                 
                 <div class="row1">
                     
-                    <button class="n">7</button>
-                    <button class="n">8</button>
-                    <button class="n">9</button>
-                    <button class="op">/</button>
+                    <button class="n" onclick="appendToDisplay('7')">7</button>
+                    <button class="n" onclick="appendToDisplay('8')">8</button>
+                    <button class="n" onclick="appendToDisplay('9')">9</button>
+                    <button class="op" onclick="appendToDisplay('/')">/</button>
                     
                 </div>
                 
                 <div class="row2">
 
-                    <button class="n">4</button>
-                    <button class="n">5</button>
-                    <button class="n">6</button>
-                    <button class="op">*</button>
+                    <button class="n" onclick="appendToDisplay('4')">4</button>
+                    <button class="n" onclick="appendToDisplay('5')">5</button>
+                    <button class="n" onclick="appendToDisplay('6')">6</button>
+                    <button class="op" onclick="appendToDisplay('*')">*</button>
                     
                 </div>
 
                 <div class="row3">
 
-                    <button class="n">1</button>
-                    <button class="n">2</button>
-                    <button class="n">3</button>
-                    <button class="op">-</button>
+                    <button class="n" onclick="appendToDisplay('1')">1</button>
+                    <button class="n" onclick="appendToDisplay('2')">2</button>
+                    <button class="n" onclick="appendToDisplay('3')">3</button>
+                    <button class="op" onclick="appendToDisplay('-')">-</button>
                     
                 </div>
 
                 <div class="row3">
                     
-                    <button class="n">0</button>
-                    <button class="n">.</button>
-                    <button class="op" id="plus-button">+</button>
+                    <button class="n" onclick="appendToDisplay('0')">0</button>
+                    <button class="n" onclick="appendToDisplay('.')">.</button>
+                    <button class="op" id="plus-button" onclick="appendToDisplay('+')">+</button>
 
                 </div>
 
                 <div class="row4">
 
-                    <button class="clear-button">C</button>
-                    <button class="op" id="equal-button">=</button>
+                    <button class="clear-button" onclick="clearDisplay()">C</button>
+                    <button class="op" id="equal-button" onclick="calculate()">=</button>
                 
                 </div>
 
